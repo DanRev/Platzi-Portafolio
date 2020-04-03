@@ -172,6 +172,10 @@ h6 {
   flex-wrap: wrap;
 }
 
+.hero .container {
+  margin: 0 auto;
+}
+
 .hero-image {
   object-fit: cover;
 }
@@ -457,6 +461,9 @@ h6 {
     top: 0;
     width: 100%;
     object-position: center 25%;
+  }
+  .hero .container {
+    margin: 0 auto;
   }
   h1 {
     font-size: 2em;
