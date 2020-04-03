@@ -15,12 +15,12 @@ valores */
 } */
 
 /* Selector de clase */
-.link{
+.link {
   color: blue;
 }
 
 /* Selector de Id */
-#workTogether{
+#workTogether {
   color: red;
 }
 
@@ -29,19 +29,20 @@ valores */
 }
 
 @font-face {
-  font-family: 'icomoon';
-  src:  url('../fonts/icomoon.eot?6i4vwh');
-  src:  url('../fonts/icomoon.eot?6i4vwh#iefix') format('embedded-opentype'),
-  url('../fonts/icomoon.ttf?6i4vwh') format('truetype'),
-  url('../fonts/icomoon.woff?6i4vwh') format('woff'),
-  url('../fonts/icomoon.svg?6i4vwh#icomoon') format('svg');
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot?6i4vwh");
+  src: url("../fonts/icomoon.eot?6i4vwh#iefix") format("embedded-opentype"),
+    url("../fonts/icomoon.ttf?6i4vwh") format("truetype"),
+    url("../fonts/icomoon.woff?6i4vwh") format("woff"),
+    url("../fonts/icomoon.svg?6i4vwh#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
@@ -54,20 +55,20 @@ valores */
   -moz-osx-font-smoothing: grayscale;
 }
 
-body{
-  font-family: 'Source Sans Pro', sans-serif;
+body {
+  font-family: "Source Sans Pro", sans-serif;
   margin: 0px;
 }
 
 ol,
-ul{
-  margin:0;
-  padding:0;
+ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
-figure{
-  margin:0;
+figure {
+  margin: 0;
 }
 
 h1,
@@ -75,26 +76,26 @@ h2,
 h3,
 h4,
 h5,
-h6{
-  font-family: 'Fjalla One', sans-serif;
+h6 {
+  font-family: "Fjalla One", sans-serif;
   font-weight: normal;
 }
 
-h1{
+h1 {
   font-size: 40px;
   line-height: 50px;
-  letter-spacing: -.2px;
-  text-transform: capitalize; 
+  letter-spacing: -0.2px;
+  text-transform: capitalize;
   color: white;
-  margin:0;
+  margin: 0;
 }
 
-h2 strong, 
-h1 strong{
+h2 strong,
+h1 strong {
   color: #026fff;
 }
 
-section article div p small a{
+section article div p small a {
   color: #8b8b8b;
   padding: 0 5px;
 }
@@ -102,17 +103,17 @@ section article div p small a{
 h2 {
   color: #026fff;
   text-transform: uppercase;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 40px;
 }
 
-h6{
+h6 {
   color: #8b8b8b;
 }
 
-.header{
+.header {
   background-color: #1d252c;
   color: white;
   display: flex;
@@ -121,7 +122,7 @@ h6{
   flex-wrap: wrap;
 }
 
-.header figure img{
+.header figure img {
   height: 50px;
   display: flex;
 }
@@ -129,7 +130,7 @@ h6{
 .header figure {
   align-items: center;
   display: flex;
-  padding: 0 15px;  
+  padding: 0 15px;
 }
 
 .header a {
@@ -137,28 +138,28 @@ h6{
   text-decoration: none;
 }
 
-.header ol{
+.header ol {
   display: flex;
   height: inherit;
   padding: 0 15px;
 }
 
-.header ol li{
+.header ol li {
   height: inherit;
 }
 
-.header a{
+.header a {
   display: flex;
   align-items: center;
   height: inherit;
   padding: 0 10px;
 }
 
-.menu{
+.menu {
   height: inherit;
 }
 
-.hero{
+.hero {
   /* background-image: url('../resources/hero.jpg'); */
   background-color: #1d252c;
   /* background-size: 500px 300px;
@@ -171,12 +172,12 @@ h6{
   flex-wrap: wrap;
 }
 
-.hero-image{
+.hero-image {
   object-fit: cover;
 }
 
 .portfolio {
-  background: #FAFAFA;
+  background: #fafafa;
   padding: 20px;
 }
 
@@ -200,81 +201,81 @@ h6{
 
 .project-course,
 .project-date,
-.project-url{
+.project-url {
   margin: 10px 0;
 }
 
 .project-details {
   width: 50%;
-  font-size: 20px;   
+  font-size: 20px;
 }
 
-.project-imageContainer{
+.project-imageContainer {
   width: 50%;
 }
 
-.project-imageContainer img{
+.project-imageContainer img {
   max-width: 100%;
 }
 
-.project strong{
-  font-family: 'Fjalla One', sans-serif;
+.project strong {
+  font-family: "Fjalla One", sans-serif;
 }
 
-.flexbox{
+.flexbox {
   display: flex;
   /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.box{
+.box {
   width: 50px;
   height: 50px;
   border: 1px solid red;
   flex-shrink: 0;
 }
 
-.footer{
+.footer {
   background-color: #1d252c;
-  color: #FFFFFF;
-  display:flex;
+  color: #ffffff;
+  display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.footer-inf{
+.footer-inf {
   align-items: center;
   display: flex;
   padding: 0 15px;
 }
 
-.footer-auth{
+.footer-auth {
   display: flex;
   padding: 0 15px;
 }
 
-.footer div p{
+.footer div p {
   display: flex;
   align-items: center;
 }
 
-.footer div p #imgPlatzi{
+.footer div p #imgPlatzi {
   height: 30px;
   padding: 0 15px;
 }
 
-.footer div p a{
-  color:white;
+.footer div p a {
+  color: white;
   padding: 0 5px;
 }
 
-.experience{
-  display:flex;
+.experience {
+  display: flex;
   flex-wrap: wrap;
 }
 
-.event{
+.event {
   margin: 1%;
   width: 48%;
   flex-shrink: 0;
@@ -283,26 +284,26 @@ h6{
   background: #fafbff;
 }
 
-.event img{
+.event img {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
 
-.event-details{
-  margin:20px 40px;
+.event-details {
+  margin: 20px 40px;
   margin-top: -40px;
   background-color: white;
   position: relative;
-  padding:20px;
+  padding: 20px;
   text-align: center;
 }
 
-.event-detail{
+.event-detail {
   text-align: left;
 }
 
-.event-url{
+.event-url {
   color: #056fff;
   border: 1px solid #056fff;
   padding: 5px 20px;
@@ -310,61 +311,61 @@ h6{
   border-radius: 5px;
 }
 
-.event-titleList{
+.event-titleList {
   margin-left: 20px;
 }
 
-.contact{
+.contact {
   background-color: #056fff;
   color: white;
   height: 150px;
   display: flex;
   align-items: center;
-  padding:10px;
+  padding: 10px;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.social{
+.social {
   display: flex;
 }
 
-.social-link{
+.social-link {
   width: 50px;
   height: 50px;
   background-size: 50px 50px;
   margin: 10px;
 }
 
-.social-link.twitter{
-  background-image: url('../resources/twitter.svg');
+.social-link.twitter {
+  background-image: url("../resources/twitter.svg");
 }
 
-.social-link.facebook{
-  background-image: url('../resources/facebook.svg');
+.social-link.facebook {
+  background-image: url("../resources/facebook.svg");
 }
 
-.social-link.github{
-  background-image: url('../resources/github.svg');
+.social-link.github {
+  background-image: url("../resources/github.svg");
 }
 
-.social-link.instagram{
-  background-image: url('../resources/instagram.svg');
+.social-link.instagram {
+  background-image: url("../resources/instagram.svg");
 }
 
-.form-email input{
+.form-email input {
   border-color: gray;
   border-radius: 5px;
   border-style: solid;
   padding: 10px 20px 10px 25px;
-  background-image: url('../resources/envelope.svg');
+  background-image: url("../resources/envelope.svg");
   background-size: 15px 15px;
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: 5px;
 }
 
-.form-email button{
+.form-email button {
   display: block;
   margin-top: 10px;
   background: transparent;
@@ -376,37 +377,38 @@ h6{
   padding: 10px 0;
 }
 
-.form-email h3{
-  font-family: 'Source Sans Pro', sans-serif;
+.form-email h3 {
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-.container{
+.container {
   margin: 0 auto;
   /* width: 100%; */
   flex: 1;
   display: inherit;
-  justify-content: inherit;
+  justify-content: space-around;
+  margin: 0px 100px 0px 100px;
   align-items: inherit;
   height: inherit;
   flex-wrap: inherit;
 }
 
-.html-video{
+.html-video {
   width: 100%;
   height: auto;
 }
 
-.fb-video{
+.fb-video {
   width: 100%;
   height: 100%;
   position: absolute;
-  top:0;
+  top: 0;
   bottom: 0;
   right: 0;
   left: 0;
 }
 
-.flexible-video{
+.flexible-video {
   width: 100%;
   height: 0;
   padding-top: 56.25%;
@@ -414,39 +416,39 @@ h6{
   position: relative;
 }
 
-.burger-button{
+.burger-button {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: rgba(0,0,0,.8);
-  display:none;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
   line-height: 40px;
   text-align: center;
   position: fixed;
   z-index: 4;
-  left:5px;
+  left: 5px;
   top: 5px;
-  color:white;
+  color: white;
 }
 
 /* Desktop First */
 
-@media screen and (max-width:1024px){
-  .portfolio{
-    padding:0;
+@media screen and (max-width: 1024px) {
+  .portfolio {
+    padding: 0;
   }
 
-  .container{
+  .container {
     padding: 0 1em;
   }
 
-  .hero{
+  .hero {
     height: auto;
     position: relative;
     overflow: hidden;
     padding: 2em;
   }
-  .hero-image{
+  .hero-image {
     position: absolute;
     z-index: 1;
     left: 0;
@@ -456,41 +458,42 @@ h6{
     width: 100%;
     object-position: center 25%;
   }
-  h1{
+  h1 {
     font-size: 2em;
     z-index: 2;
   }
 }
 
-@media screen and (max-width:767px){
-  .burger-button{
-    display:block;
+@media screen and (max-width: 767px) {
+  .burger-button {
+    display: block;
   }
-  
-  .header{
+
+  .header {
     display: block;
     height: auto;
+    justify-content: space-around;
   }
-  .header ol{
+  .header ol {
     display: initial;
   }
-  .header ol li{
+  .header ol li {
     height: 50px;
   }
-  .header a{
+  .header a {
     justify-content: center;
     height: 40px;
     font-size: 2em;
     text-decoration: underline;
-    margin-bottom: .5em;
+    margin-bottom: 0.5em;
   }
-  .header .container .logo{
+  .header .container .logo {
     justify-content: center;
   }
 
-  .menu{
+  .menu {
     position: fixed;
-    background-color: rgba(2, 111, 255, .9);
+    background-color: rgba(2, 111, 255, 0.9);
     z-index: 3;
     top: 0;
     left: -100vw;
@@ -499,96 +502,98 @@ h6{
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: .3s;
+    transition: 0.3s;
   }
-  .menu.is-active{
-    left:0;
+  .menu.is-active {
+    left: 0;
   }
 
-  .project{
+  .project {
     display: block;
   }
-  .project-imageContainer{
+  .project-imageContainer {
     width: auto;
     text-align: center;
   }
-  .project-details{
+  .project-details {
     width: auto;
     font-size: 16px;
   }
-  .project-course, .project-date, .project-url{
-    margin: .3em 0;
+  .project-course,
+  .project-date,
+  .project-url {
+    margin: 0.3em 0;
   }
-  .project-title{
+  .project-title {
     font-size: 1.5em;
-    margin-bottom: .3em;
+    margin-bottom: 0.3em;
   }
-  .project-url{
+  .project-url {
     font-size: 1em;
   }
-  .project-course{
-    font-size: .7em;
+  .project-course {
+    font-size: 0.7em;
   }
-  .project-date{
+  .project-date {
     font-size: 1em;
   }
-  .project-description{
-    font-size: .8em; 
+  .project-description {
+    font-size: 0.8em;
   }
 
-  .event{
+  .event {
     width: auto;
     flex-shrink: initial;
   }
-  .event img{
+  .event img {
     width: 100%;
   }
 }
 
-@media screen and (max-width:480px){
-  h1{
+@media screen and (max-width: 480px) {
+  h1 {
     font-size: 1.5em;
   }
-  
-  .project-details{
+
+  .project-details {
     width: auto;
     font-size: 12px;
   }
 
-  .event-details{
-    margin: -2em .5em .5em;
+  .event-details {
+    margin: -2em 0.5em 0.5em;
     padding: 1em;
   }
 
-  .contact{
+  .contact {
     margin: 0 auto;
     height: auto;
     padding: 1.5em 0;
     justify-content: center;
   }
-  .form-email h3{
+  .form-email h3 {
     margin-top: 0;
   }
-  .form-email button{
+  .form-email button {
     margin: 1em auto;
   }
 
-  .footer{
+  .footer {
     justify-content: center;
   }
-  .footer-inf p{
+  .footer-inf p {
     flex-direction: column;
     margin-bottom: 0;
   }
 }
 
-@media screen and (max-width:320px){
-  h1{
+@media screen and (max-width: 320px) {
+  h1 {
     font-size: 1.2em;
     /* background: rgba(0,0,0, .5); */
   }
-  
-  .hero{
+
+  .hero {
     padding: 2em 1em;
   }
 }
